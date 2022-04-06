@@ -1,0 +1,11 @@
+Source: hello
+Maintainer: Megamind <promisefru1@gmail.com>
+Section: devel
+Priority: optional
+Build-Depends: build-essential, debhelper (>= 9)
+
+Package: hello
+Architecture: all
+Depends: python
+Description: greet user
+  This package greets the user, or the world.
